@@ -9,10 +9,8 @@ def rbf_kernel_pca(X, gamma, n_compoonents):
     Parameters
     -----------
     X: {Numpy ndarray}, shape = [n_samples, n_features]
-
     gamma : float
         Tuning parameter of the RBF kernel
-
     n_components : int
         Number of principal components to return
 
